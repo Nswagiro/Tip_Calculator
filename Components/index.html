@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+    <div class="frame">
+        <h1>Tip calculator</h1>
+        <form name="tip" 
+            class="Form"
+        >
+            <input 
+                type="text" 
+                class="error" 
+                id="errors"
+                disabled
+            />
+            <br />
+
+            <label for="Bill Amount" 
+                class="bill"> Bill Amount :
+            </label>
+
+            <input type="number" 
+                id="billAmount" 
+                placeholder="Bill Amount"
+            />
+            <br />
+
+            <label for="Percentage Tip" 
+                class="tip">Percentage Tip :
+            </label>
+
+            <input type="number"
+                id="percentageTip" 
+                placeholder="Percentage(%)"
+            />
+            <br />
+
+            <label for="Tip Amount" 
+                class="Amount">Tip Amount :
+            </label>
+            <input type="text" 
+                id="tipAmount"
+                placeholder="Amount in shillings"
+                disabled 
+            />
+            <br />
+
+            <label for="Total" 
+                class="total">Total :
+            </label>
+            <input type="text"
+                id="total" 
+                disabled
+            />
+            <br/>
+
+            <button type="button" 
+                class="btn" 
+                id="button">Calculate
+            </button>
+
+            <button type="button" 
+                class="btn" 
+                id="reset">Reset
+            </button>
+
+            <script src="./app.js"></script>
+            
+        </form>
+    </div>
+</body>
+</html>

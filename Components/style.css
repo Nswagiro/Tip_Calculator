@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: whitesmoke;
+}
+.bill{
+    font-weight: bolder;
+    padding: 20px;
+    background-color: transparent;
+}
+.tip{
+    font-weight: bolder;
+    padding: 11px;
+    background-color: transparent;
+}
+.Amount{
+    font-weight: bolder;
+    padding: 21px;
+    background-color: transparent;
+}
+.total{
+    font-weight: bolder;
+    padding: 45px;
+    background-color: transparent;
+}
+.btn{
+    color: white;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+input{
+    margin-top: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.error{
+    border-style: none;
+    color: red;
+}
+.frame{
+    background-image: url(./skyla.JPG);
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-right: 70px;
+}
